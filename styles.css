@@ -2,6 +2,13 @@ body {
   background-color: #464646;
 }
 
+h1 {
+  color: ghostwhite;
+  font-family: arial;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
 p {
   color: ghostwhite;
   font-family: arial;
@@ -10,5 +17,18 @@ p {
 }
 
 a {
-  color: #76D7C4
+  color: #76D7C4;
 }
+
+#logoimg {
+  vertical-align: middle;
+}
+
+.header {
+  background-color: black;
+  opacity: 0.35;
+  position: fixed;
+  up: 0;
+  left: 0;
+}
+  
