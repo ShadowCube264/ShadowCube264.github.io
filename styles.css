@@ -7,6 +7,7 @@ h1 {
   font-family: arial;
   font-size: 24px;
   font-weight: bolder;
+  opacity: 1;
 }
 
 p {
@@ -14,6 +15,7 @@ p {
   font-family: arial;
   font-size: 18px;
   font-weight: bold;
+  opacity: 1;
 }
 
 a {
@@ -22,6 +24,7 @@ a {
 
 #logoimg {
   vertical-align: middle;
+  opacity: 1;
 }
 
 .header {
