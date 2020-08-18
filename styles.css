@@ -26,5 +26,6 @@ a {
 
 .header {
   background-color: black;
+  background-blend-mode: darken;
 }
   
