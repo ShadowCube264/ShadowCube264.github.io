@@ -3,17 +3,17 @@
   <head>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="lol.png">
-    <title>Exam Timer</title>
+    <title>Holiday Timer</title>
   </head>
   <body>
     <!-- Display the countdown timer in an element -->
-    <h1>Time until exams:</h1>
+    <h1>Time until holidays:</h1>
     <h2 id="demo"></h2>
     <h2><img src="lol2.png"></h2>
 
     <script>
     // Set the date we're counting down to
-    var countDownDate = new Date("May 10, 2021 9:00:00").getTime();
+    var countDownDate = new Date("Jul 16, 2021 12:30:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -37,7 +37,7 @@
       // If the count down is finished, write some text
       if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "Good luck\!";
+        document.getElementById("demo").innerHTML = "Haha yes";
       }
     }, 1000);
     </script>
